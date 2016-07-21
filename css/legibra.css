@@ -1,0 +1,382 @@
+body{
+    background-color: #EBEBEB;
+    font:13px/1.1em Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5{
+    text-transform: uppercase;
+}
+h2{
+    color:white;
+    margin: 20px;
+}
+h3{
+    color: #000;
+}
+h4{
+    color: darkgray;
+}
+/* The Header */
+header{
+    height: 600px;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+header img {
+    float: left;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+}
+
+header nav {
+    float: right;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+header nav:hover {
+    text-decoration: underline;
+}
+
+.theme-btn{
+    background-color: #9F9AD0;
+    border-bottom: 2px solid mediumpurple ;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #9F9AD0;
+    width:100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:20px 0 0 0;
+}
+
+.top-image {
+    background-image: url(../images/DeathtoStockWired7.png);
+    background-size: 100% 100%;
+}
+
+.about-image {
+    width: 960px;
+    margin:0 auto;
+}
+.about-us{
+    background-image: url(../images/DeathtoStockWired8.png);
+    background-size: 550px 360px;
+    height: 350px;
+    width: 30%;
+}
+
+.about-us img{
+    margin-top:60px;
+}
+
+.service-image{
+    background-color: rgba(0,0,0,0.40) !important;
+    background-image: url(../images/unsplash523ae1f5502d.png);
+    background-size: 1385px 584px;
+    width: 960px;
+    margin:0 auto;
+}
+
+.recent-image{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.recent{
+    background-image: url(../images/DeathtoStockWired3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 30px;
+    height: 560px;
+}
+
+.contact-image{
+    background-image: url(../images/Mapgoogle.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 30px;
+    height: 560px;
+}
+
+.newsletter{
+    background-color: #9F9AD0;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.margin{
+    margin-bottom: 40px;
+}
+
+.main-menu{
+    padding:10px;
+}
+.main-menu li{
+    list-style:none;
+    float: left;
+    padding:10px 20px;
+    text-align: right;
+}
+
+.main-menu a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-menu a:hover{
+    text-decoration: underline;
+}
+
+.main-body{
+    width: 960px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.spotlight{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 200px;
+    left: 0;
+    z-index: 10;
+    color: #ffffff;
+}
+
+.center{
+    text-align: center;
+
+}
+.social li{
+    list-style:none;
+    float: left;
+    padding:10px 20px;
+    text-align: right;
+}
+.dark{
+    padding: 60px 25px;
+    background-color: #DBDBDB;
+}
+
+.light{
+    padding: 60px 25px;
+    background-color: #EBEBEB;
+}
+
+.nopadd{
+    padding:0;
+}
+
+.padd {
+    padding: 70px 20px 0 10px;
+}
+
+.main-body{
+}
+
+.marg{
+    margin-top: 50px;
+}
+
+.copyright{
+    margin: 27px 0 50px 25px;
+}
+
+.card{
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.13);
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 265px;
+}
+
+.card-vertical{
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.13);
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 120px;
+    width:270px;
+}
+
+.footer-content{
+    padding: 20px;
+    color: white;
+}
+.figure {
+    margin-top: -70px;
+    border: 7px solid #EBEBEB;
+}
+.figure-vertical {
+    width:120px;
+    margin-left: -278px;
+    border: 7px solid #EBEBEB;
+}
+.portfolio{
+    width: 700px;
+    height: 1050px;
+}
+.cardFooter{
+    width: auto;
+    background-color: #9F9AD0;
+    padding: 5px;
+    margin-top: 101px;
+}
+.cardCareer{
+    margin: 10px;
+    color: darkgray;
+}
+.m10{
+    margin: 10px;
+}
+.cardName{
+    margin-top: 10px;
+    color: #9F9AD0;
+}
+.search-box {
+    float: left;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    margin: 11px 15px;
+}
+
+.search-box input,
+.search-box .icon {
+    transition-duration: .3s;
+}
+
+input {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-indent: 15px;
+    height: 40px;
+    z-index: 2;
+    outline: none;
+    color: #999;
+    background: transparent;
+    border-radius: 5px;
+    transition-timing-function: cubic-bezier(0.3, 1.5, 0.6, 1);
+}
+
+.search-box input:focus {
+    color: #333;
+    width: 400px;
+    border: 1px solid #343434;
+}
+
+input:focus ~ .icon {
+    opacity: 1;
+    z-index: 3;
+    color: #FFFFFF;
+}
+
+.search-box .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 1;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.container {
+    background-color: #212121;
+}
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  color: gray;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+
+
+.content{
+    min-height:200px;
+}
+.faq-content{
+    min-height: 500px;
+}
